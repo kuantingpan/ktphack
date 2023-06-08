@@ -4,42 +4,73 @@
   }
 
 
-ul{
-    display:inline;
-    margin:0;
-    padding:14px;
+
+.item{
+    display:inline-block;
     font-size:14px;
-    height:auto;
-    text-align: left;
     font-family: 'Inter';
-font-style: normal;
+    line-height: 32px;
 font-weight: 600;
 color:white;
+margin-right:14px;
+padding:14px;
+cursor:pointer
+
 }
 
-ul:hover{
-    background-color:#3c3c3c;
+.item:hover{
+    background-color:#7f7f7f;
     border-radius:3px;
 }
 
 .logo{
 height:32px;
-display:inline;
-padding:7px;
+display:inline-block;
+padding:14px 0px;
+vertical-align: top;
 }
 
 nav{
-   padding-left:56px;
-   padding-right:56px;
    padding-top:20px;
    padding-bottom:20px;
    width:100%;
-   display: flex;
-   justify-content: left;
    position:fixed;
    z-index: 1;
+   align-items: start;
+   background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.359375) 70.83%, rgba(0, 0, 0, 0) 100%);
+   top:0;
+   left:0;
+   z-index:1;
 }
 
+.nav-right{
+    float:right;
+    margin-right:56px;
+    padding:14px;
+}
+.nav-left{
+    display:inline-block;
+   margin-left:56px;
+  vertical-align: middle;
+}   
+.nav-icon{
+    width:24px;
+    height:24px;
+    display:inline-block;
+    margin-left:12px;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+
+.divider{
+    display:inline-block;
+    width:1px;
+    height:24px;
+    background-color:white;
+margin-left:12px;
+padding-top:8px;
+padding-bottom:4px;
+}
 
 .header-image{
  width:100%;
@@ -74,7 +105,7 @@ opacity:1
     position:absolute;
     left:56px;
     bottom:80px;
-    width:90vw
+    width:calc(100vw - 112px)
 
 }
 
@@ -193,6 +224,14 @@ justify-content: center;
     left:0
 }
 
+#grad2{
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
 .icon{
     height: 16px;
     width:16px;
@@ -295,4 +334,16 @@ line-height: 12px;
 align-items: center;
 letter-spacing: 0.8px;
 text-transform: uppercase;
+}
+
+.mute{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    width:60px;
+    height:60px;
+      border: 1px solid #FFFFFF;
+    border-radius: 999px;
+    cursor: pointer;
+   
 }

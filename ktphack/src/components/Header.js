@@ -1,11 +1,25 @@
 import React from "react";
+import { useState } from "react";
 import "./style.css"
 import avatar from "./assets/callie.png"
 import callieWorkout from "./assets/workout.mp4"
 import image from "./assets/callieheader.png"
 import playIcon from "./assets/play.png"
 import infoIcon from "./assets/info.png"
+import mute from "./assets/volume-mute.png"
+import unMute from "./assets/volume-low.png"
 function Header () {
+    const [name, setName] = useState(mute);
+
+    const changeName = () => {
+      let value = name;
+  
+      if (value === mute) {
+        setName(unMute);
+      } else {
+        setName(mute);
+      }
+    };
     return(
         <div className="header-container">
             <video loop autoplay="" poster={image} muted className="header-image">
@@ -31,6 +45,11 @@ function Header () {
          </div> 
          <div > 
          <button className="secondary"><img src={infoIcon} className="icon"/>More Info</button>
+         </div>
+
+         <div onClick={changeName}>
+        
+            <img  className="mute"src={name}/>
          </div>
          </div>
          </div>

@@ -3,7 +3,7 @@ import "./style.css"
 function Classes () {
     const [isShown, setIsShown] = useState(false);
     return(
-        <div>
+        <div >
         <div className="col">
             <div className="row-container" style={{marginRight:12}}>
   <div onMouseEnter={() => setIsShown(true)}
