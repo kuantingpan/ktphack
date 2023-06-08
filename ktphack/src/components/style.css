@@ -252,3 +252,47 @@ line-height: 14px;
 padding-top:8px;
 text-transform: uppercase;
 }
+
+
+.int{
+    width: 10px;
+height: 10px;
+
+background: #FACB3E;
+border-radius: 2px;
+ display: inline-block;
+ margin-right:8px;
+}
+
+.beg{
+    width: 10px;
+height: 10px;
+
+background: #50C4AA;
+border-radius: 2px;
+ display: inline-block;
+ margin-right:8px;
+}
+
+
+.hard{
+    width: 10px;
+height: 10px;
+
+background: #FC820F;
+border-radius: 2px;
+ display: inline-block;
+ margin-right:8px;
+}
+
+.diff-text{
+display: inline-block;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 12px;
+align-items: center;
+letter-spacing: 0.8px;
+text-transform: uppercase;
+}
