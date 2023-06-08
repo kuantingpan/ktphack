@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ktphack/static/css/main.2cb43772.css",
+    "main.js": "/ktphack/static/js/main.817b7531.js",
+    "static/js/787.28cb0dcd.chunk.js": "/ktphack/static/js/787.28cb0dcd.chunk.js",
+    "static/media/workout.mp4": "/ktphack/static/media/workout.cb625779d581d1667577.mp4",
+    "static/media/callieheader.png": "/ktphack/static/media/callieheader.0f85f62af99542bbaa03.png",
+    "static/media/EuropaGroteskSH-MedExt.otf": "/ktphack/static/media/EuropaGroteskSH-MedExt.c8d72f47707dbc709fc3.otf",
+    "static/media/callie.png": "/ktphack/static/media/callie.c001163106511699c9d6.png",
+    "index.html": "/ktphack/index.html",
+    "main.2cb43772.css.map": "/ktphack/static/css/main.2cb43772.css.map",
+    "main.817b7531.js.map": "/ktphack/static/js/main.817b7531.js.map",
+    "787.28cb0dcd.chunk.js.map": "/ktphack/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cb43772.css",
+    "static/js/main.817b7531.js"
+  ]
+}
