@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "./style.css"
 import avatar from "./assets/callie.png"
-import callieWorkout from "./assets/workout.mp4"
+import callieWorkout from "./assets/callieWorkout.mp4"
 import image from "./assets/callieheader.png"
 import playIcon from "./assets/play.png"
 import infoIcon from "./assets/info.png"
